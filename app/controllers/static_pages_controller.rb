@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def community
   end
+
+  def about
+  end
 end
