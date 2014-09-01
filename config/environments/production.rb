@@ -79,4 +79,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Force all access tot he app over SSL, use Strict-Trnasport-Security and use secure cookies
+  config.force_ssl = true
 end
