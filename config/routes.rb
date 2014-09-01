@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'users/new'
+  resources :users
 
   root 'static_pages#home'
   match '/courses', to:'static_pages#courses', via:'get'
